@@ -50,6 +50,7 @@ char * my_strcpy (char *dst, const char *src)
     {
         dst[index] = src[index];
     }
+    
     return dst;
 }
 
@@ -63,6 +64,8 @@ char * my_strncpy (char *dst, const char *src, size_t len)
         else
             dst[index] = '\0';
     }
+    
+    return dst;
 }
 
 
